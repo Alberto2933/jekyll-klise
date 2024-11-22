@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cara ribet memperbarui forked repo
+title: El lol competitivo en España
 date: 2020-01-29 01:00 +0700
 modified: 2020-03-07 16:49:47 +07:00
 description: Ada dua cara untuk memperbarui forked repository menggunakan web interface yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet lagi.
@@ -8,64 +8,106 @@ tag:
   - tips
   - git
   - software
-image: /cara-memperbarui-fork-repository/repo.png
 ---
 
-Berawal dari saya pengen memperbarui repo yang tua dari suatu organisasi, niatnya pengen rumat ulang nih, ternyata dari orginal reponya ada update, sekalian buat artikel deh, lebih kurang gambaranya seperti ini.
+# Mejores Jugadores Españoles de League of Legends
 
-<figure>
-<img src="{{ page.image }}" alt="ilustrasi repo yang mau diupdate">
-<figcaption>Fig 1. Gambaran ribetnya.</figcaption>
-</figure>
+España cuenta con una rica historia en la escena competitiva de League of Legends, con jugadores destacados que han dejado su huella tanto a nivel nacional como internacional. A continuación, exploramos a algunos de los mejores talentos españoles.
 
-Ada dua cara untuk memperbarui forked repository menggunakan web interface yang disediakan oleh github tapi ribet, atau melalui terminal yang lebih ribet lagi.
+---
 
-### Melalui Github (boring way) 💻
+## 1. **Javier "Razork" Prades**
 
-1. Buka repo yang hasil fork di Github.
-1. Klik **Pull Requests** di sebelah kanan, lalu **New Pull Request**.
-1. Akan memunculkan hasil compare antara repo upstream dengan repo kamu(forked repo), dan jika menyatakan "There isn’t anything to compare.", tekan link **switching the base**, yang mana sekarang repo kamu(forked repo) akan dibalik menjadi base repo dan repo upstream menjadi head repo.
-1. Tekan **Create Pull Request**, beri judul pull request, Tekan **Send Pull Request**.
-1. Tekan **Merge Pull Request** dan **Confirm Merge**.
+- **Rol**: Jungla  
+- **Equipo Actual**: Fnatic (LEC)  
+- **Logros**:  
+  - Campeón de la **LEC Spring 2022** con Fnatic.  
+  - Reconocido como uno de los mejores junglas de Europa.  
+  - Representante de Fnatic en múltiples ediciones del **Mundial de League of Legends**.  
+- **Estilo de Juego**:  
+  - Dominio del mapa y enfoque agresivo.  
+  - Especialista en junglas de tempo como Graves, Lee Sin y Viego.  
+- **Impacto**: Razork es un ejemplo de dedicación y crecimiento en la LEC, consolidándose como uno de los jugadores más consistentes y talentosos de España.  
 
-\* _pastikan kamu tidak merubah apapun pada forked repo, supaya melakukan merge secara otomatis, kalo tidak ya paling2 konflik._
+---
 
-### Melalui terminal ⌨️
+## 2. **Rubén "Rubi0o" Barbosa**
 
-Tambahkan remote alamat repository yang aslinya disini tak beri nama `upstream`., ganti `ORIGINAL_OWNER` dan `ORIGINAL_REPO` dengan alamat repo aslimu.
+- **Rol**: Midlaner  
+- **Logros**:  
+  - Uno de los jugadores españoles más emblemáticos.  
+  - Dominó la escena española en la **Superliga**, destacando por su habilidad mecánica y versatilidad en la midlane.  
+- **Estilo de Juego**: Control de línea y capacidad para liderar estrategias en equipo.
 
-```bash
-$ git add remote upstream git@github.com:ORIGINAL_OWNER/ORIGINAL_REPO.git
-$ git remote -v
-> origin    git@github.com:piharpi/www.git (fetch) # forked repo
-> origin    git@github.com:piharpi/www.git (push) # forked repo
-> upstream    git@github.com:ORIGINAL_OWNER/ORIGINAL_REPO.git (fetch) # upstream repo / original repo
-> upstream    git@github.com:ORIGINAL_OWNER/ORIGINAL_REPO.git (push) # upstream repo / original repo
-```
+---
 
-Checkout ke local branch `master`.
+## 3. **Elyoya (Javier Prades)**
 
-```bash
-$ git checkout master
-> Switched to branch 'master'
-```
+- **Rol**: Jungla  
+- **Equipo Actual**: MAD Lions (LEC)  
+- **Logros**:  
+  - Campeón de la **LEC Spring 2021** y **LEC Spring 2023**.  
+  - Reconocido como uno de los mejores junglas de Europa.  
+  - Participante destacado en varios **Mundiales de LoL**.  
+- **Estilo de Juego**: Dominio del mapa, agresividad y lectura estratégica.  
 
-Jika sudah, Merge local repo dengan remote `upstream/master`.
+---
 
-```bash
-$ git merge upstream/master
-```
+## 4. **Antonio "Th3Antonio" Espinosa**
 
-Terakhir push local repo ke remote `origin`.
+- **Rol**: Toplaner  
+- **Equipos Destacados**: Movistar Riders, Giants Gaming  
+- **Logros**:  
+  - Múltiples títulos en la Superliga.  
+  - Conocido por su consistencia y liderazgo en el carril superior.  
+- **Estilo de Juego**: Control de la línea y habilidad para ser el "roca" del equipo en situaciones críticas.
 
-```bash
-$ git add -A
-$ git commit -m "updating origin repo" && git push -u origin master
-```
+---
 
-Selamat mencoba cara ribet ini, semoga bisa dipahami, saya sendiri lebih senang melalui terminal, klo ada yang ribet kenapa cari yang mudah.
+## 5. **Werlyb (Jorge Casanovas)**
 
-##### Resources
+- **Rol**: Toplaner  
+- **Equipos Destacados**: Fnatic Academy, MAD Lions  
+- **Logros**:  
+  - Parte del equipo que llevó a **MAD Lions** al reconocimiento internacional antes de su entrada en la LEC.  
+  - Campeón en múltiples ocasiones de la Superliga.  
+- **Estilo de Juego**: Jugadas agresivas y pick de campeones únicos.
 
-- [Syncing a fork](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/syncing-a-fork)
-- [Update your fork directly on Github](https://rick.cogley.info/post/update-your-forked-repository-directly-on-github/#top)
+---
+
+## 6. **Attila (Amadeu Carvalho)**
+
+- **Rol**: ADC  
+- **Nacionalidad**: Aunque nacido en Portugal, su carrera se desarrolló en gran parte en España.  
+- **Equipos Destacados**: Giants Gaming, Vitality  
+- **Logros**:  
+  - Figura clave en la Superliga y en competiciones europeas como la LEC.  
+  - Reconocido por su estilo de juego explosivo como tirador.  
+- **Estilo de Juego**: Carreador agresivo con enfoque en teamfights.
+
+---
+
+## Menciones Honoríficas
+
+- **Koldo (Iván Díaz)**: Joven talento español en la jungla, con potencial para llegar a la LEC.  
+- **Miniduke (Antonio Espinosa)**: Uno de los midlaners más consistentes de España.  
+- **Hatrixx (Sebastian Lofstedt)**: Aunque sueco, jugó en equipos españoles y dejó una gran influencia en la Superliga.  
+
+---
+
+## España en la Escena Competitiva
+
+La **Superliga** ha servido como cuna para muchos de estos talentos, siendo una de las ligas nacionales más prestigiosas de Europa. Equipos como **Giants Gaming**, **MAD Lions Madrid** y **Movistar Riders** han sido fundamentales en el desarrollo de estos jugadores.
+
+---
+
+### Referencias
+
+1. [LEC (Liga Europea)](https://lolesports.com)  
+2. [Superliga (LVP)](https://www.lvp.es/superliga)  
+3. [Historial de jugadores españoles en LoL](https://lol.fandom.com)  
+
+---
+
+
+
