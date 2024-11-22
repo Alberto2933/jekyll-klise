@@ -4,6 +4,9 @@ title:  La historia de lol
 date:   2024-11-22
 categories: jekyll update
 usemathjax: true
+image:
+  path:https://github.com/Alberto2933/Lagrange/blob/gh-pages/assets/img/1366_2000.jpg
+  alt: High-quality image for illustrative purposes.
 ---
 
 # Historia de League of Legends
